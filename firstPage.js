@@ -23,10 +23,10 @@ $(document).ready(function() {
                 
             },
             success: function(res) {
-                console.log(res);
+                console.log('==res==',res);
             },
             error: function(err) {
-                         console.log(err);
+                         console.log('==err==',err);
 
             });
         //});
