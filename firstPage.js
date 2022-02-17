@@ -1,12 +1,8 @@
 
-        //$('#click').click(function(){
-    $.ajax({
-            "async": true,
-            "crossDomain": false,
-            "url": "https://partial-welink1.cs197.force.com/services/apexrest/scheduleServiceAppointment"
+
 
 $(document).ready(function() {
-    //$('#click').click(function(){
+    //$('#click').on('click',function(){
     $.ajax({
             "async": true,
             "crossDomain": false,
